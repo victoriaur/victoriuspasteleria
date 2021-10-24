@@ -1,0 +1,186 @@
+* {
+	background-color:  #c4e9f2;
+	font-family: sans-serif;
+}
+
+header, footer {
+	/*border: 2px solid white;*/
+	/*margin: 5px;
+	min-height: 50px;*/
+	display: flex;
+	/*box-shadow: 0 0 3px 0 rgba(0, 0, 0.6,);*/
+}
+
+header {
+	padding: 15px;
+	position: sticky;
+}
+
+.logo img {
+	width: 90px;
+	/*border: 2px solid orangered;*/
+}
+
+nav {
+	/*border: 2px solid orange;*/
+	width: 400px;
+	height: 100px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.nav {
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	padding: 10px;
+	margin: 15px 0px 0px 10px;
+	color: white;
+	/*border: 2px solid blue;*/
+}
+
+.nav:hover {
+	color: #eb565f;
+}
+
+li a {
+	text-decoration: none;
+}
+
+li a:hover {
+	color: #eb565f;
+}
+
+/*main*/
+
+main {
+	/*border: 2px solid white;*/
+	/*margin: 15px;*/
+	/*min-height: 50px;*/
+	width: 100%;
+}
+
+main h1{
+	padding-top: 25px;
+	width: 100%;
+	text-align: center;
+}
+
+.containerMain {
+	/*padding: 10px;*/
+	display: flex;
+	/*border: 3px solid blueviolet;*/
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.divMain1 {
+	/*border: 2px solid darkred;*/
+	flex-direction: row;
+	width: 35%;
+	height: 450px;
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.divMain2 {
+	/*border: 2px solid darkred;*/
+	flex-direction: row;
+	width: 450px;
+	height: 450px;
+	margin: 10px;
+	text-align: center;
+	/*overflow: auto ;*/
+	object-fit: cover;
+}
+
+.divMain2 img {
+	width: 450px;
+	object-fit: cover;
+}
+
+/*footer*/
+
+footer {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+	margin: 40px;
+	/*border: 2px solid white;*/
+	/*flex-wrap: wrap;*/
+	/*justify-content: space-evenly;*/
+}
+
+.footerContainer {
+	display: flex;
+	flex-wrap: wrap;
+	/*border: 2px solid blue;*/
+	width: 100%;
+	justify-content: space-between;
+}
+
+.footerContacto {
+	/*border: 2px solid orangered;*/
+	width: 400px;
+	text-align: justify;
+	list-style: none;
+	margin-top: 10px;
+	/*margin-left: 20px;*/
+}
+
+.footerIcono {
+	/*box-sizing: border-box;*/
+	/*border: 2px solid orangered;*/
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 5px;
+	padding: 6px;
+	width: 150px;
+	align-items:flex-end;
+}
+
+.footerLi {
+	padding: 2.5px;
+	list-style:none
+}
+.footerLi1 {
+	margin-bottom: 5px;
+	font-weight: bold;
+	font-size: 19px;
+	list-style: none;
+}
+
+footer div > a {
+	font-size: 30px;
+	/*margin: 5px;*/
+	/*border: 2px solid orangered;*/
+	margin: 5px 10px 0px 5px;
+	color: #eb565f;
+	align-items: center;
+
+}
+
+/*productos*/
+
+main div {
+	display: flex;
+	display: inline-block;
+	flex-wrap: wrap;
+	text-align: center;
+	justify-content: space-evenly;
+	min-width: 15em;
+	/*border: 2px solid pink;*/
+}
+
+main div > img {
+	margin: 12px;
+	padding: 5px;
+	width: 300px;
+	/*border: 2px solid blue;*/
+}
+
+/*contacto*/
