@@ -2,21 +2,23 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Victorius Pasteleria</title>
+	<title>Victorius Pastelería</title>
 	<link rel="stylesheet" type="text/css" href="./estilosContacto.css">
     <script src="https://kit.fontawesome.com/2baf578c76.js" crossorigin="anonymous"></script>
-    <link rel="favicom" href="favicom.jpg">
-    <link  rel = "shortcut icon"  href = "/favicon.ico"  type = "image / x-icon" > 
-    <link  rel = "icon"  href = "/favicon.ico"  type = "image / x-icon" > 
-
+    <link rel="icon" href="logo_white.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Andada+Pro:wght@500&family=Josefin+Sans:wght@100&family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="./form.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <i class="favicom.jpg"></i>
 	<header>
         <div class="logo">
-            <img src="./logo_white.png">
+            <img src="./logo_small_icon_only.png">
         </div>
-        <nav>
+        <nav class="menu">
         	<ul>
         		<li class="nav"><a href="inicio.html">Inicio</a></li>
         		<li class="nav"><a href="productos.html">Productos</a></li>
@@ -25,52 +27,57 @@
         </nav>
     </header>
     <main>
-        <div class="flexContainer">
-            <form class="form">
-                <div class="divForm">
-                    <input class="input" type="text" placeholder="Nombre">
-                </div>
-                <div class="divForm">
-                    <input class="input" type="text" placeholder="Apellido">
-                </div>
-                <div class="divForm">
-                    <input class="input" type="email" placeholder="Email">
-                </div>
-                <div class="divForm">
-                    <textarea class="input" type="textarea" placeholder="Escriba su consulta..."></textarea>
-                </div>
-                    <input class="input" id="buttom" type="submit" value="Enviar">
-                </div>
-            </form>
-        </div>
+        <section class="section">
+            <div class="flexContainer">
+                <h2>Envianos tu consulta</h2>
+                <form class="form" id="formulario">
+                    <div class="divForm">
+                        <input class="input" id="nombre"type="text" placeholder="Nombre">
+                    </div>
+                    <div class="divForm">
+                        <input class="input" id="telefono" type="tel" placeholder="Teléfono">
+                    </div>
+                    <div class="divForm">
+                        <input class="input" id="email" type="email" placeholder="Email">
+                    </div>
+                    <div class="divForm">
+                        <textarea class="input" id="consulta" type="textarea" placeholder="Escriba su consulta..."></textarea>
+                    </div>
+                        <input class="input" id="buttom" type="submit" value="Enviar">
+                    </div>
+                </form>
+            </div>
+            <div class="iframe">
+                <h2>Podés visitarnos en...</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16878.580349363267!2d-68.87252566561062!3d-32.92103896206157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e09828df8e921%3A0x6e9a165b9d8692aa!2sPaso%20de%20los%20Andes%20640%2C%20Godoy%20Cruz%2C%20Mendoza!5e0!3m2!1ses!2sar!4v1635121929036!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </section>
     </main>
     <footer>
-        <div class="footerContacto">
-            <p>CONTACTANOS:</p>
-            <ul>
-                <li class="footerLi"><i class="fas fa-phone-alt"></i> 2615950366</li>
-                <li class="footerLi"><i class="fas fa-map-marker-alt"></i> 3 de Febrero 1064, Godoy Cruz</li>
-                <li class="footerLi"><i class="fas fa-envelope-open-text"></i><a href="mailto:pedidos@victoriuspasteleria.com">pedidos@victoriuspasteleria.com</a></li>
-            </ul>
-        </div>
-        <div class="footerIcono">
-            
-            <div>
-                <a href="https://www.instagram.com/vicurbinaa/" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i>
-                </a>
+        <div class="footerContainer">
+            <div class="footerContacto">
+                <ul>
+                    <li class="footerLi1">CONTACTANOS</li>
+                    <li class="footerLi"><i class="fas fa-phone-alt"></i> 2615950366</li>
+                    <li class="footerLi"><i class="fas fa-map-marker-alt"></i> Paso de los Andes 640, Godoy Cruz</li>
+                    <li class="footerLi"><i class="far fa-envelope"></i><a id="mail"href="mailto:pedidos@victoriuspasteleria.com">pedidos@victoriuspasteleria.com</a></li>
+                </ul>
             </div>
-            <div>
-                <a href=" https://www.facebook.com/victoriaur/"target="_blank"><i class="fab fa-facebook-square" aria-hidden="true"></i>
-                </a>
+            <div class="footerIcono">
+                <div>
+                    <a href="https://www.instagram.com/vicurbinaa/" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href=" https://www.facebook.com/victoriaur/"target="_blank"><i class="fab fa-facebook-square" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://twitter.com/victoriaurbinae" target="_blank"><i class="fab fa-twitter-square" aria-hidden="true"></i>
+                    </a>
+                </div>         
             </div>
-            <div>
-                <a href="https://twitter.com/victoriaurbinae" target="_blank"><i class="fab fa-twitter-square" aria-hidden="true"></i>
-                </a>
-            </div>
-            <div>
-                <a href="https://www.linkedin.com/in/victoria-urbina-46130211a/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i>
-                </a>
-            </div>           
         </div>
     </footer>
 
